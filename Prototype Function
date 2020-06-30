@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+// Bahasa Pemrograman 30 Juni 2020
+void penjumlahan ( int y, int z){
+	cout << (y + z);
+}
+void pengurangan ( int d, int n){
+	cout << (d - n);
+}
+double pembagian ( double a, double b){
+	cout << (a / b);
+}
+void perkalian ( int angka1, int angka2){
+	cout << (angka1 * angka2);
+}
+int main (){
+	cout<<"Hasil function penjumlahan"<<endl;
+	penjumlahan (15, 5);
+	cout<<endl;
+	
+	cout<<"Hasil function pengurangan"<<endl;
+	pengurangan (20, 10);
+	cout<<endl;
+	
+	cout<<"Hasil hasil function pembagian"<<endl;
+	pembagian (44.4, 16.5);
+	cout<<endl;
+	
+	cout<<"Hasil hasil function perkalian"<<endl;
+	perkalian (9, 2);
+}
